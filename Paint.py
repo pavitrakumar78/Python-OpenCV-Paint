@@ -42,7 +42,7 @@ def start():
             frame = cv2.resize(frame, (600,400))
             orig_frame = frame.copy();
             #orig_frame = frame.copy();
-            cv2image = cv2.cvtColor(orig_frame, cv2.COLOR_BGR2RGBA)
+            #cv2image = cv2.cvtColor(orig_frame, cv2.COLOR_BGR2RGBA)
             #orig_frame = frame.copy();
             frame = cv2.blur(frame,(3,3))
             hsv = cv2.cvtColor(frame,cv2.COLOR_BGR2HSV)
